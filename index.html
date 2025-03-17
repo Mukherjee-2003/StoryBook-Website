@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>StoryBook Website</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="./CSS/styles.css">
+</head>
+
+<body>
+  <header>
+    <!-- ---------NAVBAR RESPONSIVE------------------ -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class=" container custom_container">
+        <a class="navbar-brand" href="#"><img src="./IMAGES/Logo.png" alt="Image" class="img-fluid"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav  ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Books</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Vlogs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <!-- ------------BANNER CSS------------------- -->
+    <section class="banner py-md-4 py-3">
+      <div class="banner_div row container custom_container">
+        <div class="banner_text col-xxl-6 col-xl-6 col-lg-8">
+          <p id="banner_sub">When Your <i class="fa-solid fa-heart"></i></p>
+          <h1>Dream story come true</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam.</p>
+          <form action="#" class="position-relative">
+            <input type="text" name="books" id="books" placeholder="Search for new life story books"
+              class="d-block bg-light form-control">
+            <button type="submit" class="btn position-absolute top-0 end-0" id="banner_submit"><i
+                class="fa-solid fa-magnifying-glass"></i></button>
+          </form>
+          <a href="#"><button class="btn text-light mt-3" id="banner_btn">Explore More</button></a>
+          <div class="banner_creators  d-flex mt-2">
+            <img src="./IMAGES/creators-img 1.png" alt="Image" class="img-fluid">
+            <p class="text-center">350 +<span class="d-block">Members</span></p>
+          </div>
+        </div>
+        <figure class="banner_image col-xxl-6 col-xl-6 col-lg-4">
+          <img src="./IMAGES/Banner.png" alt="Image" class="img-fluid">
+        </figure>
+      </div>
+    </section>
+    <!-- ----------BANNER CSS END------------------------- -->
+    <section class="storybook_planner py-md-5 py-3">
+      <div class="container custom_container">
+        <div class="row">
+          <div class="col-md-6 position-relative">
+            <img src="./IMAGES/storybook_planner_main.png" alt="Image" class="img-fluid">
+            <img src="./IMAGES/storybook_second.png" alt="Image" class="img-fluid position-absolute end-0 bottom-0">
+          </div>
+          <div class="col-md-6 border">
+            <div class="storybook_text w-100 h-100 p-3">
+              <h2 class="text-center">About Our Story Book <span>Planner</span></h2>
+              <p class="text-center fs-6 mt-md-4 mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+              <div class="mt-5">
+                <p class="storybook_p"><i class="fa-solid fa-arrow-up"></i> Personalized Content</p>
+              <p class="storybook_p"><i class="fa-solid fa-arrow-up"></i> Photographs and Visuals</p>
+              <p class="storybook_p"><i class="fa-solid fa-arrow-up"></i> Anecdotes and Memories</p>
+              <a href="#" class="btn btn-info storybook_btn">Know More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ----------CARDS SECTION------------------ -->
+    <section class="cards">
+      <div class="container custom_container">
+        <h2 class="fw-bold fs-3 text-center card_head_color">What We Serve To Plan Your Best <span>Story Books</span>
+        </h2>
+        <p class="text-center mt-md-4 mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+        <div class="row card_div d-flex justify-content-center align-items-center">
+          <div class="col-sm-4 mt-3 col-9">
+            <div class="card text-center" data-aos="fade-up" data-aos-duration="3000">
+              <img src="./IMAGES/card1.png" alt="Image">
+              <div class="card-body">
+                <h5 class="card-title">Special title treatment</h5>
+                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                <a href="#" class="btn card_btn_bg">Know More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4 mt-3 col-9">
+            <div class="card text-center" data-aos="fade-up" data-aos-duration="3000">
+              <img src="./IMAGES/card2.png" alt="Image">
+              <div class="card-body">
+                <h5 class="card-title">Special title treatment</h5>
+                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                <a href="#" class="btn card_btn_bg">Know More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4 mt-3 col-9">
+            <div class="card text-center" data-aos="fade-up" data-aos-duration="3000">
+              <img src="./IMAGES/card3.png" alt="Image">
+              <div class="card-body">
+                <h5 class="card-title">Special title treatment</h5>
+                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                <a href="#" class="btn card_btn_bg">Know More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- -----------CARDS SECTION END---------------------- -->
+    <!-- ----------BLOG SECTION--------------------------- -->
+    <section class="blog py-md-5 py-3">
+      <div class="container custom_container">
+        <div class="row blog_div">
+          <div class="col-lg-6 col-md-4 w-100  mb-3">
+            <img src="./IMAGES/blog.png" alt="" class="img-fluid">
+          </div>
+          <div class="col-lg-6 col-md-4 w-100  border py-3">
+            <h2>We Dedicated To Join Your <span>Journey For Best Couple</span> <span>Story Event</span></h2>
+            <p id="blog_para" class="mt-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+            <div class="container-fluid border">
+              <div class="row  border w-100 d-flex justify-content-between">
+                <div class="col-md-4 border shadow">
+                  <p class="blog_p text-center fs-5">350+ <span class="d-block blog_span fs-5">Wedding Events</span></p>
+                </div>
+                <div class="col-md-4 border shadow">
+                  <p class="blog_p text-center fs-5">150+ <span class="d-block blog_span fs-5">Decorations</span></p>
+                </div>
+                <div class="col-md-4 border shadow">
+                  <p class="blog_p text-center fs-5">250+ <span class="d-block blog_span fs-5">Locations</span></p>
+                </div>
+              </div>
+            </div>
+            <a href="#" class="btn card_btn_bg mt-5 d-block w-25 mx-auto">Know More</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ----------------BLOG SECTION END----------------------- -->
+    <!-- --------------GALLERY SECTION--------------------------- -->
+    <section class="gallery">
+      <div class="gallery_div container custom_container">
+        <h2 class="text-center">Our Recent Work <span>Best Story Gallery</span></h2>
+        <p id="gallery_sub" class="text-center mt-md-4 mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+        <div class="row gallery_pic_div mt-md-5 mt-3">
+          <div class="col-md-4 col-6 mb-md-4 mb-2 " data-aos="zoom-in-right" data-aos-duration="3000"><img
+              src="./IMAGES/gallery1.png" alt="Image" class="img-fluid">
+          </div>
+          <div class="col-md-4 col-6 mb-md-4 mb-2 " data-aos="zoom-in-right" data-aos-duration="3000"><img
+              src="./IMAGES/gallery2.png" alt="Image" class="img-fluid">
+          </div>
+          <div class="col-md-4 col-6 mb-md-4 mb-2 " data-aos="zoom-in-right" data-aos-duration="3000"><img
+              src="./IMAGES/gallery3.png" alt="Image" class="img-fluid">
+          </div>
+          <div class="col-md-4 col-6 mb-md-4 mb-2 " data-aos="zoom-in-right" data-aos-duration="3000"><img
+              src="./IMAGES/gallery4.png" alt="Image" class="img-fluid">
+          </div>
+          <div class="col-md-4 col-6 mb-md-4 mb-2 " data-aos="zoom-in-right" data-aos-duration="3000"><img
+              src="./IMAGES/gallery5.png" alt="Image" class="img-fluid">
+          </div>
+          <div class="col-md-4 col-6 mb-md-4 mb-2 " data-aos="zoom-in-right" data-aos-duration="3000"><img
+              src="./IMAGES/gallery6.png" alt="Image" class="img-fluid">
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ----------GALLERY SECTION END---------------- -->
+    <!-- ----------CATEGORY SECTION------------------ -->
+    <section class="category bg-secondary-subtle py-md-5 py-3">
+      <div class="category_div container custom_container">
+        <h2 class="text-center">Top Categories</h2>
+        <p id="category_sub" class="text-center mt-md-4 mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+        <div class="row category_pic_div mt-md-4 mt-2 d-flex justify-content-center align-items-center">
+          <div class="col-md-3 col-4 mt-3">
+            <img src="./IMAGES/categ1.png" alt="Image" class="img-fluid">
+          </div>
+          <div class="col-md-3 col-4 mt-3">
+            <img src="./IMAGES/categ2.png" alt="Image" class="img-fluid">
+          </div>
+          <div class="col-md-3 col-4 mt-3">
+            <img src="./IMAGES/categ3.png" alt="Image" class="img-fluid">
+          </div>
+          <div class="col-md-3 col-4 mt-3">
+            <img src="./IMAGES/categ4.png" alt="Image" class="img-fluid">
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ---------------CATEGORY SECTION END------------------- -->
+    <!-- -----------SHOP NOW SECTION-------------------- -->
+    <section class="shop_now py-md-5 py-3">
+      <div class="container custom_container text-center">
+        <p>More Bang For Your Book</p>
+        <p id="shop_now_head">20% OFF SELECT BOOKS</p>
+        <a href="#" class="btn card_btn_bg mt-5">Shop Now</a>
+      </div>
+    </section>
+    <!-- ------------SHOP NOW SECTION END--------------- -->
+    <!-- ----------CONTACT US SECTION------------ -->
+    <section class="contact_us py-md-5 py-3">
+      <div class="contact_us_background w-100 py-md-5  position-relative">
+        <div class="contact_us_div container custom_container">
+          <p class="display-5 fw-semibold contact_us_color text-center">CONTACT US</p>
+          <p class="text-white fs-3 text-center mt-1">1877-678-0009</p>
+          <div
+            class="contact_us_subDiv rounded-5 position-absolute top-100 translate-middle start-50 w-75 py-md-4 px-md-3 py-3 px-1">
+            <div class="row">
+              <div class="col-md-4">
+                <img src="./IMAGES/contactus_pic.png" alt="Image" class="img-fluid">
+              </div>
+              <div class="subDiv_text col-md-8">
+                <p id="subDiv_head" class="fs-3">Happy Clients Thoughts</p>
+                <p><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                    class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></p>
+                <p class="text-white fs-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                  exercitation.</p>
+                <p class="d-flex justify-content-around fs-5 fw-semibold"><span>Joson Smith</span><span
+                    class="text-white">Business Man</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ---------CONTACT US SECTION--------------------- -->
+    <!-- ----------REQUEST FORM SECTION---------------- -->
+    <section class="request_form pb-5 pb-2">
+      <div class="request_form_div container custom_container">
+        <div class="row">
+          <div class="col-md-6">
+            <img src="./IMAGES/request_form_pic.png" alt="Image" class="img-fluid">
+          </div>
+          <div class="col-md-6">
+            <p class="fs-2 request_form_color">REQUEST A QUOTE</p>
+            <form action="#">
+              <div class="row">
+                <div class="col-md-6"><input type="text" name="name" id="name" placeholder="Enter Name"
+                    class="form-control mt-4"></div>
+                <div class="col-md-6">
+                  <input type="email" name="email" id="email" placeholder="Enter Email" class="form-control mt-4 ">
+                </div>
+              </div>
+              <input type="text" name="name" id="name" placeholder="Enter Subject" class="form-control mt-4">
+              <textarea name="message" id="message" placeholder="Enter Your Message" class="form-control mt-4"
+                rows="5"></textarea>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ------------REQUEST FORM SECTION END------------------- -->
+  </main>
+  <!-- -----------FOOTER SECTION----------------- -->
+  <footer class="footer_background_color py-md-5 py-3">
+    <div class="container custom_container">
+      <div class="row">
+        <div class="col-md-3 col-6 border">
+          <img src="./IMAGES/footer_logo.png" alt="Logo" class="img-fluid">
+          <p>Transform your videos into attention-grabbing content with AI-powered captions, B-rolls, zooms, and sound
+            effects all in one simple editor.</p>
+        </div>
+        <div class="col-md-3 col-6 border">
+          <p class="footer_head fs-4">Company</p>
+          <div class="list-group">
+            <a href="#" class="list-group-item list-group-item-action list-group-item-primary">Blog</a>
+            <a href="#" class="list-group-item list-group-item-action list-group-item-primary">Pricing</a>
+            <a href="#" class="list-group-item list-group-item-action list-group-item-primary">Books</a>
+            <a href="#" class="list-group-item list-group-item-action list-group-item-primary">Contact</a>
+          </div>
+        </div>
+        <div class="col-md-2 col-6 border">
+          <p class="footer_head fs-4">Tools</p>
+          <p>Story Books for Sale</p>
+        </div>
+        <div class="col-md-4 col-6 border">
+          <p class="footer_head fs-4">Newsletters</p>
+          <p>Stay up to date</p>
+          <form action="#" class="position-relative">
+            <input type="email" name="email" id="email" class="form-control rounded-5" placeholder="Your email">
+            <input type="submit" value="SUBSCRIBE"
+              class="form-control w-50 position-absolute top-0 end-0 rounded-5 footer_submit">
+          </form>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- ------------------FOOTER SECTION END----------------------- -->
+  <!-- --------JAVA SCRIPT SECTION----------------------- -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+
+</html>
